@@ -10,6 +10,9 @@ def login():
 @app.route('/contact_us.html')
 def contact():
     return render_template('contact_us.html')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ceee93dfb763d77d2ea810953e44e829af58474
 if __name__=='__main__':
     app.run(debug=True)
