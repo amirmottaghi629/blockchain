@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  direction: rtl;
+}
+#main li {
+  float: right;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+  text-align: center;
+  background:#4444;
+}
+#main li a{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+#main ul{
+  display: none;
+}
+#main li:hover ul{
+  display:block
+}
+#main li :hover{
+   background-color: #eee;
+}
