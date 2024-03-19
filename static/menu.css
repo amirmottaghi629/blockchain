@@ -10,11 +10,11 @@
   line-height: 40px;
   list-style: none;
   text-align: center;
-  background:#4444;
+  background:#FFDAB9;
 }
 #main li a{
   text-decoration: none;
-  color: aliceblue;
+  color: #2F4F4F;
 
 }
 #main ul{
