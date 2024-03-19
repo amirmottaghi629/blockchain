@@ -10,5 +10,8 @@ def login():
 @app.route('/contact_us.html')
 def contact():
     return render_template('contact_us.html')
+@app.route('/page1.html')
+def menu():
+    return render_template('page1.html')
 if __name__=='__main__':
     app.run(debug=True)
