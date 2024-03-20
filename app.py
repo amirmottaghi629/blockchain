@@ -13,5 +13,8 @@ def contact():
 @app.route('/page1.html')
 def menu():
     return render_template('page1.html')
+@app.route('/menu.html')
+def menu2():
+    return render_template('menu.html')
 if __name__=='__main__':
     app.run(debug=True)
