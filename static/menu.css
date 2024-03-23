@@ -3,6 +3,7 @@
   padding: 0px;
   direction: rtl;
 }
+
 #main li {
   float: right;
   width: 120px;
@@ -10,19 +11,23 @@
   line-height: 40px;
   list-style: none;
   text-align: center;
-  background:#FFDAB9;
+  background: #FFDAB9;
 }
-#main li a{
+
+#main li a {
   text-decoration: none;
   color: #2F4F4F;
 
 }
-#main ul{
+
+#main ul {
   display: none;
 }
-#main li:hover ul{
-  display:block
+
+#main li:hover ul {
+  display: block
 }
-#main li :hover{
-   background-color: #eee;
+
+#main li :hover {
+  background-color: #eee;
 }

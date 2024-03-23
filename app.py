@@ -13,5 +13,8 @@ def contact():
 @app.route('/page1.html')
 def menu():
     return render_template('page1.html')
+@app.route('/m2m.html')
+def m2m():
+    return render_template('m2m.html')
 if __name__=='__main__':
     app.run(debug=True)
