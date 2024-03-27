@@ -1,4 +1,12 @@
 * {
   padding: 0px;
   margin: 0px;
+  direction: rtl;
+}
+
+ul {
+  background-color: bisque;
+  font-size: larger;
+
+
 }
